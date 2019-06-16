@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A471BC4522B688A6000A7568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC4422B688A6000A7568 /* AppDelegate.swift */; };
+		A471BC4722B688A6000A7568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC4622B688A6000A7568 /* ViewController.swift */; };
+		A471BC4922B688AB000A7568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471BC4822B688AB000A7568 /* Assets.xcassets */; };
+		A471BC4C22B688AB000A7568 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A471BC4A22B688AB000A7568 /* Main.storyboard */; };
+		A471BC5822B688AB000A7568 /* sors_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC5722B688AB000A7568 /* sors_macosTests.swift */; };
+		A471BC6322B688AB000A7568 /* sors_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC6222B688AB000A7568 /* sors_macosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A471BC5422B688AB000A7568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A471BC3922B688A6000A7568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A471BC4022B688A6000A7568;
+			remoteInfo = "sors-macos";
+		};
+		A471BC5F22B688AB000A7568 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A471BC3922B688A6000A7568 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A471BC4022B688A6000A7568;
+			remoteInfo = "sors-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A471BC4122B688A6000A7568 /* sors-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sors-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471BC4422B688A6000A7568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A471BC4622B688A6000A7568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A471BC4822B688AB000A7568 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A471BC4B22B688AB000A7568 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A471BC4D22B688AB000A7568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A471BC4E22B688AB000A7568 /* sors_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sors_macos.entitlements; sourceTree = "<group>"; };
+		A471BC5322B688AB000A7568 /* sors-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sors-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471BC5722B688AB000A7568 /* sors_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sors_macosTests.swift; sourceTree = "<group>"; };
+		A471BC5922B688AB000A7568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A471BC5E22B688AB000A7568 /* sors-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sors-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471BC6222B688AB000A7568 /* sors_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sors_macosUITests.swift; sourceTree = "<group>"; };
+		A471BC6422B688AB000A7568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A471BC3E22B688A6000A7568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC5022B688AB000A7568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC5B22B688AB000A7568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A471BC3822B688A6000A7568 = {
+			isa = PBXGroup;
+			children = (
+				A471BC4322B688A6000A7568 /* sors-macos */,
+				A471BC5622B688AB000A7568 /* sors-macosTests */,
+				A471BC6122B688AB000A7568 /* sors-macosUITests */,
+				A471BC4222B688A6000A7568 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A471BC4222B688A6000A7568 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A471BC4122B688A6000A7568 /* sors-macos.app */,
+				A471BC5322B688AB000A7568 /* sors-macosTests.xctest */,
+				A471BC5E22B688AB000A7568 /* sors-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A471BC4322B688A6000A7568 /* sors-macos */ = {
+			isa = PBXGroup;
+			children = (
+				A471BC4422B688A6000A7568 /* AppDelegate.swift */,
+				A471BC4622B688A6000A7568 /* ViewController.swift */,
+				A471BC4822B688AB000A7568 /* Assets.xcassets */,
+				A471BC4A22B688AB000A7568 /* Main.storyboard */,
+				A471BC4D22B688AB000A7568 /* Info.plist */,
+				A471BC4E22B688AB000A7568 /* sors_macos.entitlements */,
+			);
+			path = "sors-macos";
+			sourceTree = "<group>";
+		};
+		A471BC5622B688AB000A7568 /* sors-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A471BC5722B688AB000A7568 /* sors_macosTests.swift */,
+				A471BC5922B688AB000A7568 /* Info.plist */,
+			);
+			path = "sors-macosTests";
+			sourceTree = "<group>";
+		};
+		A471BC6122B688AB000A7568 /* sors-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A471BC6222B688AB000A7568 /* sors_macosUITests.swift */,
+				A471BC6422B688AB000A7568 /* Info.plist */,
+			);
+			path = "sors-macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A471BC4022B688A6000A7568 /* sors-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A471BC6722B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macos" */;
+			buildPhases = (
+				A471BC3D22B688A6000A7568 /* Sources */,
+				A471BC3E22B688A6000A7568 /* Frameworks */,
+				A471BC3F22B688A6000A7568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sors-macos";
+			productName = "sors-macos";
+			productReference = A471BC4122B688A6000A7568 /* sors-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A471BC5222B688AB000A7568 /* sors-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A471BC6A22B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macosTests" */;
+			buildPhases = (
+				A471BC4F22B688AB000A7568 /* Sources */,
+				A471BC5022B688AB000A7568 /* Frameworks */,
+				A471BC5122B688AB000A7568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A471BC5522B688AB000A7568 /* PBXTargetDependency */,
+			);
+			name = "sors-macosTests";
+			productName = "sors-macosTests";
+			productReference = A471BC5322B688AB000A7568 /* sors-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A471BC5D22B688AB000A7568 /* sors-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A471BC6D22B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macosUITests" */;
+			buildPhases = (
+				A471BC5A22B688AB000A7568 /* Sources */,
+				A471BC5B22B688AB000A7568 /* Frameworks */,
+				A471BC5C22B688AB000A7568 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A471BC6022B688AB000A7568 /* PBXTargetDependency */,
+			);
+			name = "sors-macosUITests";
+			productName = "sors-macosUITests";
+			productReference = A471BC5E22B688AB000A7568 /* sors-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A471BC3922B688A6000A7568 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Simon Goller";
+				TargetAttributes = {
+					A471BC4022B688A6000A7568 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A471BC5222B688AB000A7568 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A471BC4022B688A6000A7568;
+					};
+					A471BC5D22B688AB000A7568 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A471BC4022B688A6000A7568;
+					};
+				};
+			};
+			buildConfigurationList = A471BC3C22B688A6000A7568 /* Build configuration list for PBXProject "sors-macos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A471BC3822B688A6000A7568;
+			productRefGroup = A471BC4222B688A6000A7568 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A471BC4022B688A6000A7568 /* sors-macos */,
+				A471BC5222B688AB000A7568 /* sors-macosTests */,
+				A471BC5D22B688AB000A7568 /* sors-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A471BC3F22B688A6000A7568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471BC4922B688AB000A7568 /* Assets.xcassets in Resources */,
+				A471BC4C22B688AB000A7568 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC5122B688AB000A7568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC5C22B688AB000A7568 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A471BC3D22B688A6000A7568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471BC4722B688A6000A7568 /* ViewController.swift in Sources */,
+				A471BC4522B688A6000A7568 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC4F22B688AB000A7568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471BC5822B688AB000A7568 /* sors_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A471BC5A22B688AB000A7568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A471BC6322B688AB000A7568 /* sors_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A471BC5522B688AB000A7568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A471BC4022B688A6000A7568 /* sors-macos */;
+			targetProxy = A471BC5422B688AB000A7568 /* PBXContainerItemProxy */;
+		};
+		A471BC6022B688AB000A7568 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A471BC4022B688A6000A7568 /* sors-macos */;
+			targetProxy = A471BC5F22B688AB000A7568 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A471BC4A22B688AB000A7568 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A471BC4B22B688AB000A7568 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A471BC6522B688AB000A7568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A471BC6622B688AB000A7568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A471BC6822B688AB000A7568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sors-macos/sors_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A471BC6922B688AB000A7568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "sors-macos/sors_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A471BC6B22B688AB000A7568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sors-macos.app/Contents/MacOS/sors-macos";
+			};
+			name = Debug;
+		};
+		A471BC6C22B688AB000A7568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sors-macos.app/Contents/MacOS/sors-macos";
+			};
+			name = Release;
+		};
+		A471BC6E22B688AB000A7568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "sors-macos";
+			};
+			name = Debug;
+		};
+		A471BC6F22B688AB000A7568 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R9CWQW83Z8;
+				INFOPLIST_FILE = "sors-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "sors-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A471BC3C22B688A6000A7568 /* Build configuration list for PBXProject "sors-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471BC6522B688AB000A7568 /* Debug */,
+				A471BC6622B688AB000A7568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A471BC6722B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471BC6822B688AB000A7568 /* Debug */,
+				A471BC6922B688AB000A7568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A471BC6A22B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471BC6B22B688AB000A7568 /* Debug */,
+				A471BC6C22B688AB000A7568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A471BC6D22B688AB000A7568 /* Build configuration list for PBXNativeTarget "sors-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A471BC6E22B688AB000A7568 /* Debug */,
+				A471BC6F22B688AB000A7568 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A471BC3922B688A6000A7568 /* Project object */;
+}

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43FA1FD22BA099A00D7003A /* c-brindge.m in Sources */ = {isa = PBXBuildFile; fileRef = A43FA1FC22BA099A00D7003A /* c-brindge.m */; };
+		A43FA1FF22BA0A1D00D7003A /* sors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FA1FE22BA0A1D00D7003A /* sors.swift */; };
+		A43FA20222BA141400D7003A /* libsorsdylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A43FA20122BA141400D7003A /* libsorsdylib.a */; };
 		A471BC4522B688A6000A7568 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC4422B688A6000A7568 /* AppDelegate.swift */; };
 		A471BC4722B688A6000A7568 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471BC4622B688A6000A7568 /* ViewController.swift */; };
 		A471BC4922B688AB000A7568 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A471BC4822B688AB000A7568 /* Assets.xcassets */; };
@@ -33,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43FA1FB22BA099900D7003A /* sors-macos-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sors-macos-Bridging-Header.h"; sourceTree = "<group>"; };
+		A43FA1FC22BA099A00D7003A /* c-brindge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "c-brindge.m"; sourceTree = "<group>"; };
+		A43FA1FE22BA0A1D00D7003A /* sors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sors.swift; sourceTree = "<group>"; };
+		A43FA20122BA141400D7003A /* libsorsdylib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsorsdylib.a; path = libs/libsorsdylib.a; sourceTree = "<group>"; };
 		A471BC4122B688A6000A7568 /* sors-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sors-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A471BC4422B688A6000A7568 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A471BC4622B688A6000A7568 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43FA20222BA141400D7003A /* libsorsdylib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43FA20022BA141400D7003A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A43FA20122BA141400D7003A /* libsorsdylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A471BC3822B688A6000A7568 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +96,7 @@
 				A471BC5622B688AB000A7568 /* sors-macosTests */,
 				A471BC6122B688AB000A7568 /* sors-macosUITests */,
 				A471BC4222B688A6000A7568 /* Products */,
+				A43FA20022BA141400D7003A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +119,9 @@
 				A471BC4A22B688AB000A7568 /* Main.storyboard */,
 				A471BC4D22B688AB000A7568 /* Info.plist */,
 				A471BC4E22B688AB000A7568 /* sors_macos.entitlements */,
+				A43FA1FC22BA099A00D7003A /* c-brindge.m */,
+				A43FA1FB22BA099900D7003A /* sors-macos-Bridging-Header.h */,
+				A43FA1FE22BA0A1D00D7003A /* sors.swift */,
 			);
 			path = "sors-macos";
 			sourceTree = "<group>";
@@ -192,6 +212,7 @@
 				TargetAttributes = {
 					A471BC4022B688A6000A7568 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					A471BC5222B688AB000A7568 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -254,7 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43FA1FF22BA0A1D00D7003A /* sors.swift in Sources */,
 				A471BC4722B688A6000A7568 /* ViewController.swift in Sources */,
+				A43FA1FD22BA099A00D7003A /* c-brindge.m in Sources */,
 				A471BC4522B688A6000A7568 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "sors-macos/sors_macos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -430,8 +454,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sors-macos/sors-macos-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -440,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "sors-macos/sors_macos.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -449,8 +480,13 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libs",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "gollersoft.sors-macos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "sors-macos/sors-macos-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

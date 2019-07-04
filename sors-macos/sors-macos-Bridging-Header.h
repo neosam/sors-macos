@@ -28,8 +28,10 @@ void sors_task_free(RcTask *);
 Uuid *sors_doc_root_id(DocCarry *);
 RcTask *sors_doc_get_task(DocCarry *, Uuid *);
 char *sors_task_title(RcTask *);
+char *sors_task_body(RcTask *);
 
 int sors_task_children_count(RcTask *);
 Uuid *sors_task_children_get(RcTask *, int);
-DocCarry *sors_doc_update_task_title(DocCarry *, Uuid *, char *);
+DocCarry *sors_doc_update_task_title(DocCarry *, Uuid *, const char *);
+DocCarry *sors_doc_update_task_body(DocCarry *, Uuid *, const char *);
 
